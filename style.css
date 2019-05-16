@@ -1,0 +1,117 @@
+.header {
+    text-align: center;
+    padding: 20x;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+.topnav {
+    border: 1px solid black;
+    border-width: 1px 0;
+    list-style: none; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.topnav li {
+    display: inline;
+}
+.topnav a {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.topnav a:visited {
+    color: gray;
+}
+.topnav a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+    /* 45px / 36px */
+  }
+  
+@media (min-width: 43.75em) {
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      /* 2.5x body copy size = 40px */
+      line-height: 1.125;
+    }
+  }
+  
+@media (min-width: 56.25em) {
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      /* 3x body copy size = 48px */
+      line-height: 1.05;
+      /* keep to a multiple of the 20px line height 
+      and something more appropriate for display headings */
+    }
+  }
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #006400
+  }
+  
+ul {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ 
+.header
+    {
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+
+.ephemera {
+      padding: 30px;
+      
+    }
+/*.recipe
+    {
+      float: right;
+      width: 46%;
+      margin-left: 10px;
+      margin-right: 60px;
+      margin-bottom: 30px;
+      
+    }
+  */
+.cookbook-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {display: flex;
+flex-direction: column;
+flex-basis: 100%;
+flex: 1;
+}
