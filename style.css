@@ -118,5 +118,6 @@ body {
 flex-direction: column;
 flex-basis: 100%;
 flex-wrap: wrap;    
-flex: none | [<'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+flex: 1;
+flex-flow: row wrap;
 }
