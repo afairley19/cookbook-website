@@ -78,7 +78,10 @@ ol {
     font-family: 'Montserrat', sans-serif;
   }
 
- 
+.body {
+    background-color:#e6fff2;
+}
+
 .header
     {
     max-width: 100%;
