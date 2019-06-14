@@ -116,7 +116,7 @@ body {
 }
 .column {display: flex;
 flex-direction: column;
-flex-basis: 100%;
-flex-wrap: wrap;    
+flex-basis: auto;
+flex-wrap: wrap-reverse;    
 flex: 1;
 }
