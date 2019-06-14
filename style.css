@@ -113,7 +113,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  aligh-self: auto;  
+  align-self: auto;  
 }
 .column {display: flex;
 flex-direction: column;
