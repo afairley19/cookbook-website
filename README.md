@@ -8,7 +8,6 @@ Please check out the site at [ElwandaJune.com](http://elwandajune.com).
 
 - HTML5 / CSS
 - [GitHub Pages](https://pages.github.com/)
-- Header Image made using [Canva](https://www.canva.com)
 - Photographs taken by me
 
 ## Author
